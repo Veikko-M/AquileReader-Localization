@@ -1,0 +1,2380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="B_Add.Content" xml:space="preserve">
+    <value>Lisää</value>
+    <comment>Add</comment>
+  </data>
+  <data name="B_AddBook.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lisää uusi kirja</value>
+    <comment>Add new book</comment>
+  </data>
+  <data name="B_AddBookmark.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lisää kirjanmerkki</value>
+    <comment>Add Bookmark</comment>
+  </data>
+  <data name="B_AddFolder.Content" xml:space="preserve">
+    <value>Lisää kansio</value>
+    <comment>Add folder</comment>
+  </data>
+  <data name="B_AddNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lisää huomautus</value>
+    <comment>Add Note</comment>
+  </data>
+  <data name="B_AddSite.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lisää uusi sivusto</value>
+    <comment>Add new site</comment>
+  </data>
+  <data name="B_AudioSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Audioasetukset</value>
+    <comment>Audio settings</comment>
+  </data>
+  <data name="B_Back.Content" xml:space="preserve">
+    <value>Takaisin</value>
+    <comment>Back</comment>
+  </data>
+  <data name="B_Back1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Takaisin</value>
+    <comment>Back</comment>
+  </data>
+  <data name="B_Backup_Bkp.Content" xml:space="preserve">
+    <value>Varmuuskopiointi</value>
+    <comment>Backup</comment>
+  </data>
+  <data name="B_Backup_Restore.Content" xml:space="preserve">
+    <value>Palautus</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="B_Blog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tutustu blogiimme</value>
+    <comment>Read our blog</comment>
+  </data>
+  <data name="B_Bookmarks.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kirjanmerkit</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="B_Cancel.Content" xml:space="preserve">
+    <value>Peruuta</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="B_ChngLog.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Muutosloki</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="B_ClearHighlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Poista korostus</value>
+    <comment>Clear highlight</comment>
+  </data>
+  <data name="B_Close.Content" xml:space="preserve">
+    <value>Sulje</value>
+    <comment>Close</comment>
+  </data>
+  <data name="B_Close1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sulje</value>
+    <comment>Close</comment>
+  </data>
+  <data name="B_Collapse.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tiivistä</value>
+    <comment>Collapse</comment>
+  </data>
+  <data name="B_ColorMenu.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Värivalikko</value>
+    <comment>Color Menu</comment>
+  </data>
+  <data name="B_ContactSupport.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ota yhteyttä tukeen</value>
+    <comment>Contact support</comment>
+  </data>
+  <data name="B_Copy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kopioi</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="B_Credits.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Krediitit</value>
+    <comment>Credits</comment>
+  </data>
+  <data name="B_Delete.Text" xml:space="preserve">
+    <value>Poista</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="B_DeleteNote.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Poista huomautus</value>
+    <comment>Delete note</comment>
+  </data>
+  <data name="B_Done.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Valmis</value>
+    <comment>Done</comment>
+  </data>
+  <data name="B_Downloads.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lataukset</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="B_ExitReadingMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Poistu lukutilasta (Ctrl + E)</value>
+    <comment>Exit Reading Mode (Ctrl + E)</comment>
+  </data>
+  <data name="B_Expand.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Laajenna</value>
+    <comment>Expand</comment>
+  </data>
+  <data name="B_ExportCollection.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vie kokoelmat</value>
+    <comment>Export collections</comment>
+  </data>
+  <data name="B_Fb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tykkää meistä Facebookissa</value>
+    <comment>Like us on Facebook</comment>
+  </data>
+  <data name="B_Female.Content" xml:space="preserve">
+    <value>Nainen</value>
+    <comment>Female</comment>
+  </data>
+  <data name="B_FilterFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Suodata suosikkien mukaan</value>
+    <comment>Filter by favorites</comment>
+  </data>
+  <data name="B_Forward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Eteenpäin</value>
+    <comment>Forward</comment>
+  </data>
+  <data name="B_General.Content" xml:space="preserve">
+    <value>Eteenpäin</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="B_GitHub.ToolTipService.ToolTip" xml:space="preserve">
+    <value>GitHub</value>
+    <comment>GitHub</comment>
+  </data>
+  <data name="B_Group.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ryhmä</value>
+    <comment>Group</comment>
+  </data>
+  <data name="B_Highlight.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Korostus</value>
+    <comment>Highlight</comment>
+  </data>
+  <data name="B_Home.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Koti</value>
+    <comment>Home</comment>
+  </data>
+  <data name="B_Information.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tietoja</value>
+    <comment>Information</comment>
+  </data>
+  <data name="B_JSInspect.ToolTipService.ToolTip" xml:space="preserve">
+    <value>JS tarkistus</value>
+    <comment>JS Inspect</comment>
+  </data>
+  <data name="B_LinkBack.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Palaa takaisin linkin lähteeseen</value>
+    <comment>Go back to link source</comment>
+  </data>
+  <data name="B_Mail.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Posti</value>
+    <comment>Mail</comment>
+  </data>
+  <data name="B_Male.Content" xml:space="preserve">
+    <value>Mies</value>
+    <comment>Male</comment>
+  </data>
+  <data name="B_MatchCase.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sama kirjainkoko</value>
+    <comment>Match case</comment>
+  </data>
+  <data name="B_MatchWWord.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Täsmää koko sana</value>
+    <comment>Match whole word</comment>
+  </data>
+  <data name="B_Next.Content" xml:space="preserve">
+    <value>Seuraava</value>
+    <comment>Next</comment>
+  </data>
+  <data name="B_NextLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seuraava rivi (Ctrl + →)</value>
+    <comment>Next Line (Ctrl + →)</comment>
+  </data>
+  <data name="B_NH.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Huomautukset ja korostukset</value>
+    <comment>Notes &amp; Highlights</comment>
+  </data>
+  <data name="B_OpenBook.Content" xml:space="preserve">
+    <value>Avaa kirja</value>
+    <comment>Open Book</comment>
+  </data>
+  <data name="B_Pag1Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sivutettu 1 sarake</value>
+    <comment>Paginated 1 column</comment>
+  </data>
+  <data name="B_Pag2Cols.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sivutettu 2 saraketta</value>
+    <comment>Paginated 2 columns</comment>
+  </data>
+  <data name="B_PagVertical.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pystyvieritys</value>
+    <comment>Vertical scroll</comment>
+  </data>
+  <data name="B_PreviousLine.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edellinen rivi (Ctrl + ←)</value>
+    <comment>Previous Line (Ctrl + ←)</comment>
+  </data>
+  <data name="B_PrivacyPolicy.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tietosuojakäytäntö</value>
+    <comment>Privacy policy</comment>
+  </data>
+  <data name="B_RateStore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Luokitus</value>
+    <comment>Rate on store</comment>
+  </data>
+  <data name="B_ReadAloud.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lue ääneen (Ctrl + R)</value>
+    <comment>Read Aloud (Ctrl + R)</comment>
+  </data>
+  <data name="B_ReadAloud1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ääneenluku</value>
+    <comment>ReadAloud</comment>
+  </data>
+  <data name="B_ReadAloudSettings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ääneenlukuasetukset</value>
+    <comment>ReadAloud settings</comment>
+  </data>
+  <data name="B_Refresh.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Päivitä</value>
+    <comment>Refresh</comment>
+  </data>
+  <data name="B_Remove.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Poista</value>
+    <comment>Remove</comment>
+  </data>
+  <data name="B_Reset.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Palauta</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="B_RmSyncFolderBtn1.Content" xml:space="preserve">
+    <value>Kyllä, mutta pidä kirjat</value>
+    <comment>Yes, but keep books</comment>
+  </data>
+  <data name="B_RmSyncFolderBtn2.Content" xml:space="preserve">
+    <value>Kyllä, ja poista kirjat</value>
+    <comment>Yes, and remove books</comment>
+  </data>
+  <data name="B_Save.Content" xml:space="preserve">
+    <value>Tallenna</value>
+    <comment>Save</comment>
+  </data>
+  <data name="B_Search.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Etsi</value>
+    <comment>Search</comment>
+  </data>
+  <data name="B_Search1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Etsi (Ctrl + F)</value>
+    <comment>Search (Ctrl + F)</comment>
+  </data>
+  <data name="B_SearchWeb.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Hae verkosta</value>
+    <comment>Search web</comment>
+  </data>
+  <data name="B_SelectFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Valitse kansio</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="B_SelectIcon.Content" xml:space="preserve">
+    <value>Valitse kuvake</value>
+    <comment>Select icon</comment>
+  </data>
+  <data name="B_ShowCB.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Näytä komentorivi</value>
+    <comment>Show command bar</comment>
+  </data>
+  <data name="B_Sort.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lajittelu</value>
+    <comment>Sort</comment>
+  </data>
+  <data name="B_Sync_Edit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Muokkaus</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="B_TextFormat.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tekstin muoto</value>
+    <comment>Text Format</comment>
+  </data>
+  <data name="B_TextStyle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tekstin tyyli</value>
+    <comment>Text Style</comment>
+  </data>
+  <data name="B_Theme1.Content" xml:space="preserve">
+    <value>Valkoinen</value>
+    <comment>White</comment>
+  </data>
+  <data name="B_Theme1.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Valkoinen (Ctrl + T + 1)</value>
+    <comment>White (Ctrl + T + 1)</comment>
+  </data>
+  <data name="B_Theme2.Content" xml:space="preserve">
+    <value>Hopea</value>
+    <comment>Silver</comment>
+  </data>
+  <data name="B_Theme2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Hopea (Ctrl + T + 2)</value>
+    <comment>Silver (Ctrl + T + 2)</comment>
+  </data>
+  <data name="B_Theme3.Content" xml:space="preserve">
+    <value>Seepia</value>
+    <comment>Sepia</comment>
+  </data>
+  <data name="B_Theme3.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seepia (Ctrl + T + 3)</value>
+    <comment>Sepia (Ctrl + T + 3)</comment>
+  </data>
+  <data name="B_Theme4.Content" xml:space="preserve">
+    <value>Yö</value>
+    <comment>Night</comment>
+  </data>
+  <data name="B_Theme4.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Yö (Ctrl + T + 4)</value>
+    <comment>Night (Ctrl + T + 4)</comment>
+  </data>
+  <data name="B_Theme5.Content" xml:space="preserve">
+    <value>Aurinkoinen</value>
+    <comment>Solarized</comment>
+  </data>
+  <data name="B_Theme5.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aurinkoinen (Ctrl + T + 5)</value>
+    <comment>Solarized (Ctrl + T + 5)</comment>
+  </data>
+  <data name="B_Theme6.Content" xml:space="preserve">
+    <value>Mukautettu</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="B_TOC.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sisällysluettelo</value>
+    <comment>Table Of Contents</comment>
+  </data>
+  <data name="B_ToggleFav.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vaihda suosikki</value>
+    <comment>Toggle Favorite</comment>
+  </data>
+  <data name="B_ToggleFullscreen.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vaihda koko näyttö (F11)</value>
+    <comment>Toggle Fullscreen (F11)</comment>
+  </data>
+  <data name="B_Translate.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Käännös</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="B_Tw.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seuraa meitä Twitterissä</value>
+    <comment>Follow us on Twitter</comment>
+  </data>
+  <data name="B_ZoomIn.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Suurenna</value>
+    <comment>Zoom In</comment>
+  </data>
+  <data name="B_ZoomOut.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pienennä</value>
+    <comment>Zoom Out</comment>
+  </data>
+  <data name="C_AddFolder_AddRecent.Content" xml:space="preserve">
+    <value>Lisää kirjoja nykyiseen listaan</value>
+    <comment>Add books to recent list</comment>
+  </data>
+  <data name="C_AddFolder_AutoRemove.Content" xml:space="preserve">
+    <value>Poista kirjat kirjastosta automaattisesti (mukaan lukien muistiinpanot, korostukset jne.), kun tiedostot poistetaan kansiosta.</value>
+    <comment>Automatically remove books from the library (including notes, highlights, etc) when files are deleted from the folder</comment>
+  </data>
+  <data name="C_AddFolder_RecSearch.Content" xml:space="preserve">
+    <value>Rekursiivinen haku alikansioista</value>
+    <comment>Recursively search sub-folders</comment>
+  </data>
+  <data name="C_AddFolder_SyncFolder.Content" xml:space="preserve">
+    <value>Synkronoi tämä kansio ja lisää automaattisesti uusia kirjoja</value>
+    <comment>Sync this folder and automatically add new books</comment>
+  </data>
+  <data name="C_Backup_AStats.Content" xml:space="preserve">
+    <value>Sovellustilastot</value>
+    <comment>App statistics</comment>
+  </data>
+  <data name="C_Backup_BFav.Content" xml:space="preserve">
+    <value>Kirjojen suosikkilista</value>
+    <comment>Book favorite list</comment>
+  </data>
+  <data name="C_Backup_BFiles.Content" xml:space="preserve">
+    <value>Kirjatiedostot</value>
+    <comment>Book files</comment>
+  </data>
+  <data name="C_Backup_BMeta.Content" xml:space="preserve">
+    <value>Kirjan metatiedot</value>
+    <comment>Book metadata</comment>
+  </data>
+  <data name="C_Backup_Bookmarks.Content" xml:space="preserve">
+    <value>Kirjanmerkit</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="C_Backup_Config.Description" xml:space="preserve">
+    <value>Valitse varmuuskopioinnin tai palautuksen asetukset</value>
+    <comment>Select the configuration for backup or restore operation</comment>
+  </data>
+  <data name="C_Backup_Config.Title" xml:space="preserve">
+    <value>Valitse asetukset</value>
+    <comment>Choose configuration</comment>
+  </data>
+  <data name="C_Backup_NandH.Content" xml:space="preserve">
+    <value>Huomautukset ja korostukset</value>
+    <comment>Notes &amp; highlights</comment>
+  </data>
+  <data name="C_Backup_Operation.Description" xml:space="preserve">
+    <value>Valitse haluamasi toiminto</value>
+    <comment>Select the operation you want to perform</comment>
+  </data>
+  <data name="C_Backup_Operation.Title" xml:space="preserve">
+    <value>Valitse toiminto</value>
+    <comment>Choose operation</comment>
+  </data>
+  <data name="C_Backup_Storage.Description" xml:space="preserve">
+    <value>Valitse toiminnon lähde- tai kohdetallennustila</value>
+    <comment>Select the source or target storage for the operation</comment>
+  </data>
+  <data name="C_Backup_Storage.Title" xml:space="preserve">
+    <value>Valitse tallennustila</value>
+    <comment>Choose storage</comment>
+  </data>
+  <data name="C_Books.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kirjat </value>
+    <comment>Books</comment>
+  </data>
+  <data name="C_ChapterList.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lukuluettelo</value>
+    <comment>Chapter list</comment>
+  </data>
+  <data name="C_CollectionType.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kokoelman tyyppi</value>
+    <comment>Collection Type</comment>
+  </data>
+  <data name="C_General_Advt.Description" xml:space="preserve">
+    <value>Mainostyypin etusija</value>
+    <comment>Preference for type of advertisements</comment>
+  </data>
+  <data name="C_General_Advt.Title" xml:space="preserve">
+    <value>Ilmoituksen etusija</value>
+    <comment>Advt. preference</comment>
+  </data>
+  <data name="C_General_BookTitle.Description" xml:space="preserve">
+    <value>Näytä kaikkien kirjojen otsikko kirjastonäkymässä</value>
+    <comment>Display title for all books in the library view</comment>
+  </data>
+  <data name="C_General_BookTitle.Title" xml:space="preserve">
+    <value>Näytä kirjojen otsikot</value>
+    <comment>Show book titles</comment>
+  </data>
+  <data name="C_General_Lang.Description" xml:space="preserve">
+    <value>Painikkeet, valikot ja muut ohjaimet näkyvät tällä kielellä.</value>
+    <comment>Buttons, menus and other controls will show in this language.This setting will be applied on the next start of the app.</comment>
+  </data>
+  <data name="C_General_Lang.Title" xml:space="preserve">
+    <value>Näytön kieli</value>
+    <comment>Display language</comment>
+  </data>
+  <data name="C_General_Tutorial.Description" xml:space="preserve">
+    <value>Näytä kaikki opetusohjelmat uudelleen</value>
+    <comment>Show all the tutorials again</comment>
+  </data>
+  <data name="C_General_Tutorial.Title" xml:space="preserve">
+    <value>Palauta opetusohjelmat</value>
+    <comment>Reset tutorials</comment>
+  </data>
+  <data name="C_Personal_ColorThemes.Title" xml:space="preserve">
+    <value>Väriteemat</value>
+    <comment>Color themes</comment>
+  </data>
+  <data name="C_Personal_TransBanckground.Title" xml:space="preserve">
+    <value>Läpinäkyvä tausta</value>
+    <comment>Transparent background</comment>
+  </data>
+  <data name="C_Personal_TransBanckSlider.Title" xml:space="preserve">
+    <value>Taustan läpinäkyvyys</value>
+    <comment>Background transparency</comment>
+  </data>
+  <data name="C_Prem1.BillDetails" xml:space="preserve">
+    <value>Laskutus neljännesvuosittain</value>
+    <comment>Billed quarterly</comment>
+  </data>
+  <data name="C_Prem1.DurationString" xml:space="preserve">
+    <value> kuukausittain</value>
+    <comment> months</comment>
+  </data>
+  <data name="C_Prem2.BillDetails" xml:space="preserve">
+    <value>Laskutus vuosittain</value>
+    <comment>Billed annually</comment>
+  </data>
+  <data name="C_Prem2.DurationString" xml:space="preserve">
+    <value> kuukausittain</value>
+    <comment> months</comment>
+  </data>
+  <data name="C_Prem3.BillDetails" xml:space="preserve">
+    <value>Kertaluonteinen ostos</value>
+    <comment>One time purchase</comment>
+  </data>
+  <data name="C_Prem3.DurationString" xml:space="preserve">
+    <value>Elinikäinen</value>
+    <comment>Lifetime</comment>
+  </data>
+  <data name="C_Reader_AutoLayout.Description" xml:space="preserve">
+    <value>I2- sarakkeen asettelussa, kun laite kääntyy pystytilaan, lukija siirtyy automaattisesti 1-sarakkeen asetteluun ja päinvastoin.</value>
+    <comment>In 2-column layout when device rotates to portrait mode, reader will auto switch to 1-column layout, and vice versa</comment>
+  </data>
+  <data name="C_Reader_AutoLayout.Title" xml:space="preserve">
+    <value>Automaattinen siirtyminen 1 sarakkeen asetteluun</value>
+    <comment>Auto switch to 1 column layout</comment>
+  </data>
+  <data name="C_Reader_AutoScroll.Description" xml:space="preserve">
+    <value>Sivun automaattinen vieritys seuraa luettavaa lausetta ReadAloud-tilassa.</value>
+    <comment>Auto scrolls the page to follow the sentence being read in the ReadAloud mode</comment>
+  </data>
+  <data name="C_Reader_AutoScroll.Title" xml:space="preserve">
+    <value>ReadAloud automaattivieritys</value>
+    <comment>ReadAloud auto-scroll</comment>
+  </data>
+  <data name="C_Reader_BookFont.Description" xml:space="preserve">
+    <value>Lukija käyttää kirjan mukana toimitettuja alkuperäisiä fontteja.</value>
+    <comment>Reader uses the original fonts packaged with the book</comment>
+  </data>
+  <data name="C_Reader_BookFont.Title" xml:space="preserve">
+    <value>Käytä kirjan fontteja</value>
+    <comment>Use book's fonts</comment>
+  </data>
+  <data name="C_Reader_DictLang.Description" xml:space="preserve">
+    <value>Lukijan sanakirjakieli</value>
+    <comment>Language of the in-reader dictionary</comment>
+  </data>
+  <data name="C_Reader_DictLang.Title" xml:space="preserve">
+    <value>Sanakirjan kieli</value>
+    <comment>Dictionary language</comment>
+  </data>
+  <data name="C_Reader_EnhRender.Description" xml:space="preserve">
+    <value>Parantaa kirjojen esitysmuotoa/asettelua lukemista varten.</value>
+    <comment>Improves the format/layout in which books are rendered for reading</comment>
+  </data>
+  <data name="C_Reader_EnhRender.Title" xml:space="preserve">
+    <value>Parannettu renderöinti</value>
+    <comment>Enhanced rendering</comment>
+  </data>
+  <data name="C_Reader_SearchEngine.Description" xml:space="preserve">
+    <value>Verkkohakuun käytettävä hakukone</value>
+    <comment>Search engine to use for web search</comment>
+  </data>
+  <data name="C_Reader_SearchEngine.Title" xml:space="preserve">
+    <value>Hakukone</value>
+    <comment>Search engine</comment>
+  </data>
+  <data name="C_Reader_StdMrgn.Description" xml:space="preserve">
+    <value>Ohittaa kaikki kirjassa määritetyt marginaalit, jotta lukijan ulkoasu olisi johdonmukainen.</value>
+    <comment>Overrides any margin specified in the book to provide consistent layout in the reader</comment>
+  </data>
+  <data name="C_Reader_StdMrgn.Title" xml:space="preserve">
+    <value>Marginaalien standardointi</value>
+    <comment>Standardize margins</comment>
+  </data>
+  <data name="C_Reader_TextAlign.Description" xml:space="preserve">
+    <value>Ohittaa kaikki kirjassa asetetut tekstin kohdistusasetukset, jotta ulkoasu olisi johdonmukainen lukulaitteessa</value>
+    <comment>Overrides any text alignment preference set in the book to provide consistent layout in the reader</comment>
+  </data>
+  <data name="C_Reader_TextAlign.Title" xml:space="preserve">
+    <value>Ohita tekstin tasaus</value>
+    <comment>Override text alignment</comment>
+  </data>
+  <data name="C_ShowFavs.Content" xml:space="preserve">
+    <value>Näytä vain suosikit</value>
+    <comment>Show only favorites</comment>
+  </data>
+  <data name="CB_Category.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kategoriat</value>
+    <comment>Categories</comment>
+  </data>
+  <data name="EBI_Author.Text" xml:space="preserve">
+    <value>Tekijä(t):</value>
+    <comment>Author(s) : </comment>
+  </data>
+  <data name="EBI_Cover1.Content" xml:space="preserve">
+    <value>Valitse kansi</value>
+    <comment>Select cover</comment>
+  </data>
+  <data name="EBI_Cover2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Palauta alkuperäinen kansi</value>
+    <comment>Restore original cover</comment>
+  </data>
+  <data name="EBI_Description.Text" xml:space="preserve">
+    <value>Kuvaus:</value>
+    <comment>Description : </comment>
+  </data>
+  <data name="EBI_ErrMsg1" xml:space="preserve">
+    <value>Sarjanumero ei voi olla tyhjä</value>
+    <comment>Series number cannot be empty</comment>
+  </data>
+  <data name="EBI_ErrMsg2" xml:space="preserve">
+    <value>Sarjanumero ei ole oikein</value>
+    <comment>Series number not valid</comment>
+  </data>
+  <data name="EBI_Genre.Text" xml:space="preserve">
+    <value>Laji(t):</value>
+    <comment>Genre(s) : </comment>
+  </data>
+  <data name="EBI_Language.Text" xml:space="preserve">
+    <value>Kieli(t):</value>
+    <comment>Language(s) : </comment>
+  </data>
+  <data name="EBI_Msg1.Text" xml:space="preserve">
+    <value> • (s) - Käytä puolipistettä ( ; ) erottamaan useita merkintöjä.</value>
+    <comment> • (s) - Use semi-colon ( ; ) to separate multiple entries.</comment>
+  </data>
+  <data name="EBI_Publisher.Text" xml:space="preserve">
+    <value>Julkaisija(t):</value>
+    <comment>Publisher(s) : </comment>
+  </data>
+  <data name="EBI_Series.Text" xml:space="preserve">
+    <value>Sarjat: </value>
+    <comment>Series : </comment>
+  </data>
+  <data name="EBI_SeriesNumber.Text" xml:space="preserve">
+    <value>Sarjanumero: </value>
+    <comment>Series Number : </comment>
+  </data>
+  <data name="EBI_Title.Text" xml:space="preserve">
+    <value>Muokkaa kirjan tietoja</value>
+    <comment>Edit book information</comment>
+  </data>
+  <data name="IAP_Discount.Text" xml:space="preserve">
+    <value>20% alennus</value>
+    <comment>20% off</comment>
+  </data>
+  <data name="IAP_Popular.Text" xml:space="preserve">
+    <value>Suosituimmat</value>
+    <comment>Most Popular</comment>
+  </data>
+  <data name="M_About.Content" xml:space="preserve">
+    <value>Tietoa meistä</value>
+    <comment>About us</comment>
+  </data>
+  <data name="M_AddBook.Text" xml:space="preserve">
+    <value>Lisää kirjatiedosto(ja)</value>
+    <comment>Add book file(s)</comment>
+  </data>
+  <data name="M_AddFavourite.Text" xml:space="preserve">
+    <value>Lisää suosikki</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="M_AddFolder.Text" xml:space="preserve">
+    <value>Lisää kansio</value>
+    <comment>Add folder</comment>
+  </data>
+  <data name="M_Backup.Content" xml:space="preserve">
+    <value>Varmuuskopiointi ja palautus</value>
+    <comment>Backup &amp; Restore</comment>
+  </data>
+  <data name="Sync_CloudSync.Content" xml:space="preserve">
+    <value>Pilvisynkronointi</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="M_BookInfo.Text" xml:space="preserve">
+    <value>Tietoa kirjasta</value>
+    <comment>Book Info</comment>
+  </data>
+  <data name="M_ChngLog.Content" xml:space="preserve">
+    <value>Muutosloki</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="M_CreationTime.Text" xml:space="preserve">
+    <value>Luomisaika</value>
+    <comment>Creation time</comment>
+  </data>
+  <data name="M_Edit.Text" xml:space="preserve">
+    <value>Muokkaus</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="M_EditBookInfo.Text" xml:space="preserve">
+    <value>Muokkaa kirjan tietoja</value>
+    <comment>Edit Book Info</comment>
+  </data>
+  <data name="M_General.Content" xml:space="preserve">
+    <value>Yleistä</value>
+    <comment>General</comment>
+  </data>
+  <data name="M_OpenBook.Text" xml:space="preserve">
+    <value>Avaa kirja</value>
+    <comment>Open Book</comment>
+  </data>
+  <data name="M_Personal.Content" xml:space="preserve">
+    <value>Personointi</value>
+    <comment>Personalization</comment>
+  </data>
+  <data name="M_PinUnpin.Text" xml:space="preserve">
+    <value>Kiinnitä/poista kiinnitys aloitukseen</value>
+    <comment>Pin/Unpin to Start</comment>
+  </data>
+  <data name="M_PosInBook.Text" xml:space="preserve">
+    <value>Sijainti kirjassa</value>
+    <comment>Position in book</comment>
+  </data>
+  <data name="M_Reader.Content" xml:space="preserve">
+    <value>Lukija</value>
+    <comment>Reader</comment>
+  </data>
+  <data name="M_Remove.Text" xml:space="preserve">
+    <value>Poista</value>
+    <comment>Remove</comment>
+  </data>
+  <data name="M_RemoveFavourite.Text" xml:space="preserve">
+    <value>Poista suosikki</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="M_SaveToFile.Text" xml:space="preserve">
+    <value>Tallenna tiedostoon</value>
+    <comment>Save to file</comment>
+  </data>
+  <data name="M_Share.Text" xml:space="preserve">
+    <value>Jaa</value>
+    <comment>Share</comment>
+  </data>
+  <data name="M_SyncFolder.Content" xml:space="preserve">
+    <value>Synkronoi kansiot</value>
+    <comment>Sync folders</comment>
+  </data>
+  <data name="N_Collections.Content" xml:space="preserve">
+    <value>Kokoelmat</value>
+    <comment>Collections</comment>
+  </data>
+  <data name="N_Feedback.Content" xml:space="preserve">
+    <value>Palaute</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="N_Home.Content" xml:space="preserve">
+    <value>Koti</value>
+    <comment>Home</comment>
+  </data>
+  <data name="N_Library.Content" xml:space="preserve">
+    <value>Kirjasto</value>
+    <comment>Library</comment>
+  </data>
+  <data name="N_OnlineBooks.Content" xml:space="preserve">
+    <value>Nettikirjat</value>
+    <comment>Online Books</comment>
+  </data>
+  <data name="N_Premium.Content" xml:space="preserve">
+    <value>Premium</value>
+    <comment>Premium</comment>
+  </data>
+  <data name="N_ReportBug.Content" xml:space="preserve">
+    <value>Ilmoita bugista</value>
+    <comment>Report bug</comment>
+  </data>
+  <data name="N_Settings.Content" xml:space="preserve">
+    <value>Asetukset</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="N_Statistics.Content" xml:space="preserve">
+    <value>Tilastot</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="RI_No" xml:space="preserve">
+    <value>Ei</value>
+    <comment>No</comment>
+  </data>
+  <data name="RI_Title.Text" xml:space="preserve">
+    <value>Pidätkö Aquile Readerista?</value>
+    <comment>Are you enjoying Aquile Reader?</comment>
+  </data>
+  <data name="RI_Title2" xml:space="preserve">
+    <value>Olisiko sinulla hetki aikaa arvioida meitä?</value>
+    <comment>Would you spare a moment to rate us on the store?</comment>
+  </data>
+  <data name="RI_Title3" xml:space="preserve">
+    <value>Haluaisitko antaa meille palautetta?</value>
+    <comment>Would you like to share some feedback with us?</comment>
+  </data>
+  <data name="RI_Yes.Content" xml:space="preserve">
+    <value>Kyllä</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="S_ActSub" xml:space="preserve">
+    <value>Aktiivinen tilaus</value>
+    <comment>Active subscription</comment>
+  </data>
+  <data name="S_ActSub_Msg1" xml:space="preserve">
+    <value>Näyttää siltä, että sinulla on jo aktiivinen tilaus, muista peruuttaa se välttääksesi lisälaskutuksen.</value>
+    <comment>Looks like you already have an active subscription, make sure to cancel it to avoid additional billing.</comment>
+  </data>
+  <data name="S_AddMore" xml:space="preserve">
+    <value>Lisää …</value>
+    <comment>Add more ...</comment>
+  </data>
+  <data name="S_AddSite_Err1" xml:space="preserve">
+    <value>Otsikko ei voi olla tyhjä</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="S_AddSite_Err2" xml:space="preserve">
+    <value>Otsikon pituus voi olla enintään 100 merkkiä</value>
+    <comment>Title length can be up-to 100 chars</comment>
+  </data>
+  <data name="S_AdMsg1" xml:space="preserve">
+    <value>Päivitä PREMIUM-versioon</value>
+    <comment>Upgrade to PREMIUM version</comment>
+  </data>
+  <data name="S_AdMsg2" xml:space="preserve">
+    <value>Jos haluat poistaa mainokset ja saada lisäominaisuuksia, napsauta tästä.</value>
+    <comment>To remove Ads and get additional features, click here.</comment>
+  </data>
+  <data name="S_All" xml:space="preserve">
+    <value>Kaikki</value>
+    <comment>All</comment>
+  </data>
+  <data name="S_AppWidthBookInfo" xml:space="preserve">
+    <value>Sovellusikkunan leveys on liian pieni kirjan inforuudun avaamiseen.</value>
+    <comment>App window width too small to open Book info pane.</comment>
+  </data>
+  <data name="S_AppWidthLess" xml:space="preserve">
+    <value>Sovellusikkunan leveys liian pieni.</value>
+    <comment>App window width too less.</comment>
+  </data>
+  <data name="S_AS_AvgPagePerHr" xml:space="preserve">
+    <value>Keskimääräinen käännettyjen sivujen määrä tunnissa</value>
+    <comment>Avg. number of pages flipped per hour</comment>
+  </data>
+  <data name="S_AS_AvgReadHours" xml:space="preserve">
+    <value>Keskimääräiset lukutunnit päivässä</value>
+    <comment>Avg. reading hours per day</comment>
+  </data>
+  <data name="S_AS_AvgTimePerPage" xml:space="preserve">
+    <value>Keskimääräinen lukuaika (sek.) sivua kohti</value>
+    <comment>Avg. reading time (sec) per page</comment>
+  </data>
+  <data name="S_AS_Msg1" xml:space="preserve">
+    <value>Haluatko varmasti tyhjentää kaikki tilastot?</value>
+    <comment>Are you sure you want to clear all statistics?</comment>
+  </data>
+  <data name="S_AS_NumBooksLib" xml:space="preserve">
+    <value>Kirjaston kirjojen määrä</value>
+    <comment>Number of books in library</comment>
+  </data>
+  <data name="S_AS_NumBooksRead" xml:space="preserve">
+    <value>Luettujen kirjojen määrä</value>
+    <comment>Number of books read</comment>
+  </data>
+  <data name="S_AS_NumPagesTurned" xml:space="preserve">
+    <value>Käännettyjen sivujen määrä</value>
+    <comment>Number of pages flipped</comment>
+  </data>
+  <data name="S_AS_SpeedWPM" xml:space="preserve">
+    <value>Lukunopeus (sanoja minuutissa)</value>
+    <comment>Reading speed (words per minute)</comment>
+  </data>
+  <data name="S_AS_TotalReadHours" xml:space="preserve">
+    <value>Lukutunnit yhteensä</value>
+    <comment>Total reading hours</comment>
+  </data>
+  <data name="S_B_Close" xml:space="preserve">
+    <value>Sulje</value>
+    <comment>Close</comment>
+  </data>
+  <data name="S_B_OnlineBookContent1" xml:space="preserve">
+    <value>Valitse verkkosivusto, jolta haluat ladata e-kirjan.[1/4]</value>
+    <comment>Select the website from where you want to download the eBook.[1/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent2" xml:space="preserve">
+    <value>Selaa luetteloa ja napsauta minkä tahansa e-kirjan latauslinkkiä. Sovellus lataa kirjan ja lisää sen kirjastoon.[2/4]</value>
+    <comment>Browse the catalog and click on any eBook download link. App will download the book and add it to the library.[2/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent3" xml:space="preserve">
+    <value>Latauksesi näkyvät täällä.[3/4]</value>
+    <comment>Your downloads would appear here.[3/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookContent4" xml:space="preserve">
+    <value>Lisää oma verkkosivustosi, josta haluat ladata e-kirjoja.[4/4]</value>
+    <comment>Add your own website from where you want to download eBooks.[4/4]</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle1" xml:space="preserve">
+    <value>Valitse e-kirjan verkkosivusto</value>
+    <comment>Select eBook website</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle2" xml:space="preserve">
+    <value>Lataa e-kirja</value>
+    <comment>Download eBook</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle3" xml:space="preserve">
+    <value>Seuraa latauksia</value>
+    <comment>Track downloads</comment>
+  </data>
+  <data name="S_B_OnlineBookTitle4" xml:space="preserve">
+    <value>Lisää e-kirjan verkkosivusto</value>
+    <comment>Add eBook website</comment>
+  </data>
+  <data name="S_B_PauseReading" xml:space="preserve">
+    <value>Keskeytä lukeminen (välilyönti)</value>
+    <comment>Pause Reading (Space)</comment>
+  </data>
+  <data name="S_B_StartReading" xml:space="preserve">
+    <value>Aloita lukeminen (välilyönti)</value>
+    <comment>Start Reading (Space)</comment>
+  </data>
+  <data name="S_B_TutDone" xml:space="preserve">
+    <value>Valmis</value>
+    <comment>Done</comment>
+  </data>
+  <data name="S_B_TutNext" xml:space="preserve">
+    <value>Seuraava</value>
+    <comment>Next</comment>
+  </data>
+  <data name="S_B_TutReaderContent1" xml:space="preserve">
+    <value>Siirry seuraavalle tai edelliselle sivulle napauttamalla näytön reunoja, pyyhkäisemällä sivua, käyttämällä ← / → näppäimiä tai hiiren vierityspyörää.[1/8]</value>
+    <comment>Tap on the edges of the screen, swipe the page, use ← / → keyboard keys or use mouse scroll wheel, to go to next or previous page.[1/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent2" xml:space="preserve">
+    <value>Valitse teksti tai klikkaa hiiren kakkospainikkeella mitä tahansa sanaa avataksesi Readerin kontekstivalikon.Voit lisätä täältä muistiinpanoja, korostaa tai lisätä kirjanmerkkejä.[2/8]</value>
+    <comment>Select text or right click on any word to open the Reader context menu.You can add note, highlight or bookmark from here.[2/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent3" xml:space="preserve">
+    <value>Pääset kirjan sisällysluetteloon täältä.[3/8]</value>
+    <comment>Access the table of contents of the book from here.[3/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent4" xml:space="preserve">
+    <value>Muistiinpanosi ja korostuksesi luetellaan tässä.[4/8]</value>
+    <comment>Your notes and highlights would be listed here.[4/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent5" xml:space="preserve">
+    <value>Asetetut kirjanmerkit näkyvät tässä.[5/8]</value>
+    <comment>Set bookmarks would appear here.[5/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent6" xml:space="preserve">
+    <value>Etsi nykyisestä luvusta tai koko kirjasta.[6/8]</value>
+    <comment>Search in the current chapter or the entire book.[6/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent7" xml:space="preserve">
+    <value>Voit käyttää tätä kirjan sisällön lukemiseen ääneen (teksti puheeksi).[7/8]</value>
+    <comment>You can use this to read aloud the book contents (text-to-speech).[7/8]</comment>
+  </data>
+  <data name="S_B_TutReaderContent8" xml:space="preserve">
+    <value>Voit määrittää sivun ulkoasun, tyylin, värimaailman jne. täältä.[8/8]</value>
+    <comment>You can configure the page layout, style, color scheme, etc. from here.[8/8]</comment>
+  </data>
+  <data name="S_B_TutReaderTitle1" xml:space="preserve">
+    <value>Sivun vaihto</value>
+    <comment>Page change</comment>
+  </data>
+  <data name="S_B_TutReaderTitle2" xml:space="preserve">
+    <value>Lukijan kontekstivalikko</value>
+    <comment>Reader context menu</comment>
+  </data>
+  <data name="S_B_TutReaderTitle3" xml:space="preserve">
+    <value>Sisällysluettelo</value>
+    <comment>Table of contents</comment>
+  </data>
+  <data name="S_B_TutReaderTitle4" xml:space="preserve">
+    <value>Huomautukset ja korostukset</value>
+    <comment>Notes and highlights</comment>
+  </data>
+  <data name="S_B_TutReaderTitle5" xml:space="preserve">
+    <value>Kirjanmerkit</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="S_B_TutReaderTitle6" xml:space="preserve">
+    <value>Haku</value>
+    <comment>Search</comment>
+  </data>
+  <data name="S_B_TutReaderTitle7" xml:space="preserve">
+    <value>Ääneenluku</value>
+    <comment>ReadAloud</comment>
+  </data>
+  <data name="S_B_TutReaderTitle8" xml:space="preserve">
+    <value>Tekstityyli</value>
+    <comment>Text style</comment>
+  </data>
+  <data name="S_Backup" xml:space="preserve">
+    <value>Varmuuskopiointi</value>
+    <comment>Backup</comment>
+  </data>
+  <data name="S_Backup_ErrMsg1" xml:space="preserve">
+    <value>Valitse vähintään 1 määritys</value>
+    <comment>Select at-least 1 configuration</comment>
+  </data>
+  <data name="S_Backup_ErrMsg2" xml:space="preserve">
+    <value>Toiminto epäonnistui. Ota yhteyttä tukeen.</value>
+    <comment>Operation failed. Plz contact support.</comment>
+  </data>
+  <data name="S_BannerAds" xml:space="preserve">
+    <value>Bannerimainokset</value>
+    <comment>Banner Ads</comment>
+  </data>
+  <data name="S_BookAddedMsg" xml:space="preserve">
+    <value>{0}: Kirja(a) lisätty onnistuneesti.</value>
+    <comment>{0}: Book added successfully.</comment>
+  </data>
+  <data name="S_BookAddStartScreen" xml:space="preserve">
+    <value>Kirja lisätty aloitusnäyttöön.</value>
+    <comment>Book added to start screen.</comment>
+  </data>
+  <data name="S_BookExistsMsg" xml:space="preserve">
+    <value>{0}: Kirja on jo olemassa.</value>
+    <comment>{0}: Book already exists.</comment>
+  </data>
+  <data name="S_BookFont" xml:space="preserve">
+    <value>Kirjan fontti</value>
+    <comment>Book's font</comment>
+  </data>
+  <data name="S_BookmarkAdded" xml:space="preserve">
+    <value>Kirjanmerkki lisätty.</value>
+    <comment>Bookmark added.</comment>
+  </data>
+  <data name="S_BookmarkExists" xml:space="preserve">
+    <value>Kirjanmerkki on jo olemassa.</value>
+    <comment>Bookmark already exists.</comment>
+  </data>
+  <data name="S_BookRmStartScreen" xml:space="preserve">
+    <value>Kirja poistettu aloitusnäytöstä.</value>
+    <comment>Book removed from start screen.</comment>
+  </data>
+  <data name="S_BooksAdded" xml:space="preserve">
+    <value>{0} kirja(a) lisätty.</value>
+    <comment>{0} book(s) added.</comment>
+  </data>
+  <data name="S_BooksAlreadyExists" xml:space="preserve">
+    <value>Kirja on jo olemassa.</value>
+    <comment>Book already exists.</comment>
+  </data>
+  <data name="S_BookSystemLimitError_Msg" xml:space="preserve">
+    <value>Kirjoja ei voi lisätä, koska järjestelmän raja on saavutettu. Harkitse yksittäin lisättyjen kirjatiedostojen poistamista ja lisää kirjoja kerralla käyttämällä Lisää kansio -vaihtoehtoa.</value>
+    <comment>Cannot add more books as the system limit has been reached. Consider removing individually added book files and use 'Add Folder' option to add books in bulk.</comment>
+  </data>
+  <data name="S_BookSystemLimitError_Title" xml:space="preserve">
+    <value>Kirjoja ei voi lisätä</value>
+    <comment>Unable to add book(s)</comment>
+  </data>
+  <data name="S_Cancelled" xml:space="preserve">
+    <value>Peruutettu</value>
+    <comment>Cancelled</comment>
+  </data>
+  <data name="S_Collapse" xml:space="preserve">
+    <value>Tiivistä</value>
+    <comment>Collapse</comment>
+  </data>
+  <data name="S_CollectionConstAll" xml:space="preserve">
+    <value>Kaikki</value>
+    <comment>All</comment>
+  </data>
+  <data name="S_CollectionConstBookmarks" xml:space="preserve">
+    <value>Kirjanmerkit</value>
+    <comment>Bookmarks</comment>
+  </data>
+  <data name="S_CollectionConstHighlights" xml:space="preserve">
+    <value>Korostukset</value>
+    <comment>Highlights</comment>
+  </data>
+  <data name="S_CollectionConstNotes" xml:space="preserve">
+    <value>Huomautukset</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="S_Completed" xml:space="preserve">
+    <value>Valmistunut</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="S_Confirmation" xml:space="preserve">
+    <value>Vahvistus</value>
+    <comment>Confirmation</comment>
+  </data>
+  <data name="S_CTheme1" xml:space="preserve">
+    <value>Viinitarha</value>
+    <comment>Vine Yard</comment>
+  </data>
+  <data name="S_CTheme2" xml:space="preserve">
+    <value>Tumma</value>
+    <comment>Dark Side</comment>
+  </data>
+  <data name="S_CTheme3" xml:space="preserve">
+    <value>Tuore marja</value>
+    <comment>Fresh Berry</comment>
+  </data>
+  <data name="S_CTheme4" xml:space="preserve">
+    <value>Oranssi</value>
+    <comment>Pulpy Orange</comment>
+  </data>
+  <data name="S_CTheme5" xml:space="preserve">
+    <value>Kirkas taivas</value>
+    <comment>Clear sky</comment>
+  </data>
+  <data name="S_CTheme6" xml:space="preserve">
+    <value>Salama</value>
+    <comment>Flash</comment>
+  </data>
+  <data name="S_CTheme7" xml:space="preserve">
+    <value>Turkoosi</value>
+    <comment>Turquoise</comment>
+  </data>
+  <data name="S_CTheme8" xml:space="preserve">
+    <value>Vihreä omena</value>
+    <comment>Green Apple</comment>
+  </data>
+  <data name="S_CThemeMsg1" xml:space="preserve">
+    <value>Teema kopioitu leikepöydälle.</value>
+    <comment>Theme copied to clipboard.</comment>
+  </data>
+  <data name="S_CThemeMsg2" xml:space="preserve">
+    <value>Teema ei ole valittu.</value>
+    <comment>Theme not selected.</comment>
+  </data>
+  <data name="S_CurrentChapter" xml:space="preserve">
+    <value>Nykyinen luku</value>
+    <comment>Current chapter</comment>
+  </data>
+  <data name="S_DateAdded.Text" xml:space="preserve">
+    <value>Lisäyspäivämäärä:</value>
+    <comment>Date added : </comment>
+  </data>
+  <data name="S_Description.Text" xml:space="preserve">
+    <value>Kuvaus:</value>
+    <comment>Description : </comment>
+  </data>
+  <data name="S_DockLeft" xml:space="preserve">
+    <value>Telakka vasemmalla</value>
+    <comment>Dock left</comment>
+  </data>
+  <data name="S_DockRight" xml:space="preserve">
+    <value>Telakka oikealla</value>
+    <comment>Dock right</comment>
+  </data>
+  <data name="S_DownloadBook" xml:space="preserve">
+    <value>Lataa kirja</value>
+    <comment>Download book</comment>
+  </data>
+  <data name="S_DownloadBook_Msg" xml:space="preserve">
+    <value>Haluatko ladata tämän kirjan ja lisätä sen kirjastoon?</value>
+    <comment>Do you want to download this book and add to library?</comment>
+  </data>
+  <data name="S_Downloading" xml:space="preserve">
+    <value>Ladataan</value>
+    <comment>Downloading</comment>
+  </data>
+  <data name="S_EntireBook" xml:space="preserve">
+    <value>Koko kirja</value>
+    <comment>Entire book</comment>
+  </data>
+  <data name="S_ErrMsg1" xml:space="preserve">
+    <value>Aquile Readerilla ei ole oikeutta käyttää kirjatiedostoa - {0}. Napsauta "Myönnä lupa" ja valitse sama kirjatiedosto tiedostonvalitsinikkunasta.</value>
+    <comment>Aquile Reader does not have permission to access the book file - {0}.Click 'Grant Permission' and select the same book file in the file picker window.</comment>
+  </data>
+  <data name="S_ErrMsg1_btn" xml:space="preserve">
+    <value>Myönnä lupa</value>
+    <comment>Grant Permission</comment>
+  </data>
+  <data name="S_ErrMsg2" xml:space="preserve">
+    <value>Tiedostoa, jota yrität avata, ei ole enää olemassa. Tarkista ja yritä uudelleen.</value>
+    <comment>The file you are trying to open, no longer exists.Please check and try again.</comment>
+  </data>
+  <data name="S_ErrMsg3" xml:space="preserve">
+    <value>Tiedosto voi olla käytössä, lukittu tai sinulla ei ole riittäviä käyttöoikeuksia.</value>
+    <comment>The file may be in use, locked, or you don't have sufficient permissions.</comment>
+  </data>
+  <data name="S_ErrMsg4" xml:space="preserve">
+    <value>Valittu tiedosto eroaa alkuperäisestä kirjatiedostosta – {0}.</value>
+    <comment>Selected File is different from the original book file - {0}.</comment>
+  </data>
+  <data name="S_ErrMsg6" xml:space="preserve">
+    <value>Jos ongelma jatkuu, ota yhteyttä tukeen.</value>
+    <comment>If the problem persists please contact support.</comment>
+  </data>
+  <data name="S_ErrTitle1" xml:space="preserve">
+    <value>Kirjaan ei pääse käsiksi!</value>
+    <comment>Unable to access the book!</comment>
+  </data>
+  <data name="S_ErrTitle2" xml:space="preserve">
+    <value>Tiedostoa ei ole olemassa!</value>
+    <comment>File does not exist!</comment>
+  </data>
+  <data name="S_ErrTitle3" xml:space="preserve">
+    <value>Tiedostoa ei voi avata!</value>
+    <comment>Can't open file!</comment>
+  </data>
+  <data name="S_ErrTitle4" xml:space="preserve">
+    <value>Ei ole sama tiedosto!</value>
+    <comment>Not the same file!</comment>
+  </data>
+  <data name="S_ErrTitle5" xml:space="preserve">
+    <value>Odottamaton virhe!</value>
+    <comment>Unexpected error occurred!</comment>
+  </data>
+  <data name="S_ErrTitle6" xml:space="preserve">
+    <value>Tiedostoa ei voitu avata</value>
+    <comment>Couldn't open file</comment>
+  </data>
+  <data name="S_Expand" xml:space="preserve">
+    <value>Laajenna</value>
+    <comment>Expand</comment>
+  </data>
+  <data name="S_Failed" xml:space="preserve">
+    <value>Epäonnistui</value>
+    <comment>Failed</comment>
+  </data>
+  <data name="S_FileCountLimitBtn1" xml:space="preserve">
+    <value>Keskeytä ja käytä "Lisää kansio"</value>
+    <comment>Abort and use 'Add Folder'</comment>
+  </data>
+  <data name="S_FileCountLimitBtn2" xml:space="preserve">
+    <value>Jatka kirjojen lisäämistä</value>
+    <comment>Continue to add books</comment>
+  </data>
+  <data name="S_FileCountLimitMsg" xml:space="preserve">
+    <value>Suuren määrän yksittäisiä kirjatiedostoja lisääminen voi saavuttaa järjestelmän rajan, mikä estää uuden kirjan lisäämisen. Käytä "Lisää kansio" -vaihtoehtoa kirjatiedostojen lisäämiseen joukkona.</value>
+    <comment>Adding large number of individual book files can hit system limit, thus preventing new book from being added.Use 'Add Folder' option to add book files in bulk.</comment>
+  </data>
+  <data name="S_FileCountLimitTitle" xml:space="preserve">
+    <value>Varoitus!</value>
+    <comment>Warning!</comment>
+  </data>
+  <data name="S_FileNotSaved" xml:space="preserve">
+    <value>{0} ei voitu tallentaa.</value>
+    <comment>{0} could not be saved.</comment>
+  </data>
+  <data name="S_FilePath.Text" xml:space="preserve">
+    <value>Tiedostopolku :</value>
+    <comment>File path : </comment>
+  </data>
+  <data name="S_FileSaved" xml:space="preserve">
+    <value>{0} tallennettu.</value>
+    <comment>{0} was saved.</comment>
+  </data>
+  <data name="S_Genre.Text" xml:space="preserve">
+    <value>Lajityyppi:</value>
+    <comment>Genre : </comment>
+  </data>
+  <data name="S_GoPrem" xml:space="preserve">
+    <value>Siirry Premiumiin</value>
+    <comment>Go Premium</comment>
+  </data>
+  <data name="S_HighNotes_Msg1" xml:space="preserve">
+    <value>Valittu sisältö ei saa sisältää välilyöntejä ylä- / alatunnisteesta. Ole hyvä ja valitse uudelleen.</value>
+    <comment>Selected content should not include the white spaces from header or footer. Please re-select.</comment>
+  </data>
+  <data name="S_HighNotesMsg1" xml:space="preserve">
+    <value>Korostusta ei voi lisätä, jos hakuruutu on auki.</value>
+    <comment>Highlight cannot be added while search pane is open.</comment>
+  </data>
+  <data name="S_HighNotesMsg2" xml:space="preserve">
+    <value>Korostukselle ja huomautukselle valittu teksti eivät voi mennä päällekkäin.</value>
+    <comment>Selected text for Highlight and Note cannot overlap.</comment>
+  </data>
+  <data name="S_HighNotesMsg3" xml:space="preserve">
+    <value>Korostamista varten on valittava vähintään 1 merkki.</value>
+    <comment>Minimum 1 character must be selected for highlight.</comment>
+  </data>
+  <data name="S_HighNotesMsg4" xml:space="preserve">
+    <value>Korostettaviksi voidaan valita enintään 4 000 merkkiä.</value>
+    <comment>Maximum 4000 characters can be selected for highlight.</comment>
+  </data>
+  <data name="S_HighNotesMsg5" xml:space="preserve">
+    <value>Huomautusta ei voi lisätä, kun hakuruutu on auki.</value>
+    <comment>Note cannot be added while search pane is open.</comment>
+  </data>
+  <data name="S_HighNotesMsg6" xml:space="preserve">
+    <value>Huomautus:lle ja Highlightille valittu teksti ei voi mennä päällekkäin.</value>
+    <comment>Selected text for Note and Highlight cannot overlap.</comment>
+  </data>
+  <data name="S_HighNotesMsg7" xml:space="preserve">
+    <value>Vähintään 1 merkki on valittava huomautuksen lisäämiseksi.</value>
+    <comment>Minimum 1 character must be selected for adding note.</comment>
+  </data>
+  <data name="S_HighNotesMsg8" xml:space="preserve">
+    <value>Enintään 4000 merkkiä voidaan valita lisättävään muistiinpanoon.</value>
+    <comment>Maximum 4000 characters can be selected for adding note.</comment>
+  </data>
+  <data name="S_HighNotesMsg9" xml:space="preserve">
+    <value>Huomautusteksti ei voi olla tyhjä.</value>
+    <comment>Note text cannot be empty.</comment>
+  </data>
+  <data name="S_InterstitialAds" xml:space="preserve">
+    <value>Välimainokset</value>
+    <comment>Interstitial Ads</comment>
+  </data>
+  <data name="S_InvalidUrl" xml:space="preserve">
+    <value>Virheellinen URL</value>
+    <comment>Invalid URL</comment>
+  </data>
+  <data name="S_Language.Text" xml:space="preserve">
+    <value>Kieli:</value>
+    <comment>Language : </comment>
+  </data>
+  <data name="S_LastRead.Text" xml:space="preserve">
+    <value>Viimeksi luettu:</value>
+    <comment>Last read : </comment>
+  </data>
+  <data name="S_LibConstAllBooks" xml:space="preserve">
+    <value>Kaikki kirjat</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="S_LibConstCompleted" xml:space="preserve">
+    <value>Valmistunut</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="S_LibConstDownloads" xml:space="preserve">
+    <value>Lataukset</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="S_LibConstFav" xml:space="preserve">
+    <value>Suosikit</value>
+    <comment>Favourites</comment>
+  </data>
+  <data name="S_LibConstNotStarted" xml:space="preserve">
+    <value>Ei aloitettu</value>
+    <comment>Not Started</comment>
+  </data>
+  <data name="S_LibConstReading" xml:space="preserve">
+    <value>Lukeminen</value>
+    <comment>Reading</comment>
+  </data>
+  <data name="S_LineCount.Text" xml:space="preserve">
+    <value>Rivien määrä :</value>
+    <comment>Line count : </comment>
+  </data>
+  <data name="S_matchesFound" xml:space="preserve">
+    <value>{0} osumaa löytyi</value>
+    <comment>{0} matches found</comment>
+  </data>
+  <data name="S_MoreFonts" xml:space="preserve">
+    <value>Hanki lisää fontteja!</value>
+    <comment>Get more fonts!!</comment>
+  </data>
+  <data name="S_No" xml:space="preserve">
+    <value>Ei</value>
+    <comment>No</comment>
+  </data>
+  <data name="S_None" xml:space="preserve">
+    <value>(Ei mitään)</value>
+    <comment>(None)</comment>
+  </data>
+  <data name="S_NotSupported" xml:space="preserve">
+    <value>Ei tuettu</value>
+    <comment>Not supported</comment>
+  </data>
+  <data name="S_NotSupported_Msg" xml:space="preserve">
+    <value>Muiden kuin .epub-tiedostojen lataamista ei tueta.</value>
+    <comment>Download of files other than .epub is not supported</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteAdded" xml:space="preserve">
+    <value>Valmistunut | Lisätty kirjastoon</value>
+    <comment>Completed | Added to library</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteExists" xml:space="preserve">
+    <value>Valmistunut | On jo olemassa</value>
+    <comment>Completed | Already exists</comment>
+  </data>
+  <data name="S_OnlineBook_CompleteFailAdd" xml:space="preserve">
+    <value>Valmistunut | Kirjastoon lisääminen epäonnistui</value>
+    <comment>Completed | Failed to add to library</comment>
+  </data>
+  <data name="S_PercentageRead.Text" xml:space="preserve">
+    <value>Luettu prosenttiosuus:</value>
+    <comment>Percentage read : </comment>
+  </data>
+  <data name="S_Pin" xml:space="preserve">
+    <value>Kiinnitys</value>
+    <comment>Pin</comment>
+  </data>
+  <data name="S_Prem_Msg1" xml:space="preserve">
+    <value>Anteeksi! Näyttää siltä, ​​että omistat jo tämän. Olemme päivittäneet tietomme vastaamaan tätä oikein.</value>
+    <comment>Apologies! Looks like you already own this, we have updated our records to reflect this correctly.</comment>
+  </data>
+  <data name="S_Prem_Msg2" xml:space="preserve">
+    <value>Onnittelut! Ostaminen onnistui.</value>
+    <comment>Congrats! The purchase was successful.</comment>
+  </data>
+  <data name="S_Prem_Msg3" xml:space="preserve">
+    <value>Sorry! Näyttää siltä, ​​että kauppa peruutettiin, yritä uudelleen.</value>
+    <comment>Sorry! Looks like the transaction was canceled, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg4" xml:space="preserve">
+    <value>Sorry! Näyttää siltä, ​​että osto epäonnistui verkko-ongelmien vuoksi. Yritä uudelleen.</value>
+    <comment>Sorry! Looks like the purchase failed due to network issues, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg5" xml:space="preserve">
+    <value>Sorry! Näyttää siltä, ​​että osto epäonnistui palvelinvirheen vuoksi. Yritä uudelleen.</value>
+    <comment>Sorry! Looks like the purchase failed due to some server error, plz try again.</comment>
+  </data>
+  <data name="S_Prem_Msg6" xml:space="preserve">
+    <value>Sorry! Jotain meni pieleen oston aikana. Yritä uudelleen.</value>
+    <comment>Sorry! Something went wrong during the purchase, plz try again.</comment>
+  </data>
+  <data name="S_PremAnnual" xml:space="preserve">
+    <value>Premium [vuosittainen]</value>
+    <comment>Premium [Annual]</comment>
+  </data>
+  <data name="S_PremFree" xml:space="preserve">
+    <value>Ilmainen</value>
+    <comment>Free</comment>
+  </data>
+  <data name="S_PremiumBooksCount" xml:space="preserve">
+    <value>Sovelluksen ilmainen versio tukee vain {0} kirjaa kirjastossa kerrallaan. Jos haluat lisätä enemmän, päivitä Aquile Reader Premium -versioon.</value>
+    <comment>Free version of the app supports only {0} books in the library at a time.To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumCollection" xml:space="preserve">
+    <value>Sovelluksen ilmainen versio tukee yhteensä {0} kokoelmakohdetta. Jos haluat luoda lisää, päivitä Aquile Reader Premiumiin.</value>
+    <comment>Free version of the app supports total of {0} collections items.To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumColorThemes" xml:space="preserve">
+    <value>Sovelluksen ilmainen versio tukee vain {0} mukautettua teemaa. Jos haluat luoda lisää, päivitä Aquile Reader Premiumiin.</value>
+    <comment>Free version of the app supports only {0} custom themes.To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumFonts" xml:space="preserve">
+    <value>Päivitä Premium-versioon ja hanki pääsy kaikkiin järjestelmään asennettuihin kirjasimiin.</value>
+    <comment>Upgrade to Premium and get access to all fonts installed on the system.</comment>
+  </data>
+  <data name="S_PremiumPin" xml:space="preserve">
+    <value>Sovelluksen ilmainen versio tukee vain {0} kirjaa, jotka on kiinnitetty aloitusruutuun kerrallaan. Jos haluat lisätä enemmän, päivitä Aquile Reader Premium -versioon.</value>
+    <comment>Free version of the app supports only {0} books pinned to start screen at a time.To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumRAHighlight" xml:space="preserve">
+    <value>Mukautetut ReadAloud-korostusvärit ovat saatavilla vain Aquile Reader Premiumissa. Päivitä Premiumiin ja nauti kaikista ominaisuuksista.</value>
+    <comment>Custom ReadAloud highlight colors are only available in Aquile Reader Premium.Upgrade to Premium and enjoy all the features.</comment>
+  </data>
+  <data name="S_PremiumSyncFolders" xml:space="preserve">
+    <value>Sovelluksen ilmainen versio tukee vain {0} synkronointikansiota. Jos haluat luoda lisää, päivitä Aquile Reader Premium -versioon.</value>
+    <comment>Free version of the app supports only {0} sync folder(s).To create more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremiumThemes" xml:space="preserve">
+    <value>Mukautetut sivuteemat ovat käytettävissä vain Aquile Reader Premiumissa. Päivitä Premium-versioon ja nauti kaikista ominaisuuksista.</value>
+    <comment>Custom Page Themes are only available in Aquile Reader Premium.Upgrade to Premium and enjoy all the features.</comment>
+  </data>
+  <data name="S_PremLife" xml:space="preserve">
+    <value>Premium [elinikäinen]</value>
+    <comment>Premium [Lifetime]</comment>
+  </data>
+  <data name="S_PremOff1" xml:space="preserve">
+    <value>25% alennus</value>
+    <comment>25% off</comment>
+  </data>
+  <data name="S_PremOff2" xml:space="preserve">
+    <value>30% alennus</value>
+    <comment>30% off</comment>
+  </data>
+  <data name="S_PremQuarterly" xml:space="preserve">
+    <value>Premium [neljännesvuosittainen]</value>
+    <comment>Premium [Quarterly]</comment>
+  </data>
+  <data name="S_PremTrial" xml:space="preserve">
+    <value>Premium [kokeilu]</value>
+    <comment>Premium [Trial]</comment>
+  </data>
+  <data name="S_PremUpg" xml:space="preserve">
+    <value>Premium päivitys</value>
+    <comment>Premium upgrade</comment>
+  </data>
+  <data name="S_Publisher.Text" xml:space="preserve">
+    <value>Julkaisija:</value>
+    <comment>Publisher : </comment>
+  </data>
+  <data name="S_ReadAloud_Err1" xml:space="preserve">
+    <value>Teksti puheeksi -määritysvirhe</value>
+    <comment>Text-to-Speech configuration error</comment>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1" xml:space="preserve">
+    <value>Teksti puheeksi -toimintoa ei ole määritetty oikein tässä laitteessa. Määritä se oikein napsauttamalla Korjaus-linkkiä. Jos ongelma jatkuu, ota yhteyttä tukeen.</value>
+    <comment>Text-to-Speech is not configured correctly on this device, please follow the 'How to fix' link to configure it correctly. If the issue persists, contact support.</comment>
+  </data>
+  <data name="S_ReadAloud_ErrMsg1_btn" xml:space="preserve">
+    <value>Kuinka korjataan</value>
+    <comment>How to fix</comment>
+  </data>
+  <data name="S_ReadAloudMsg1" xml:space="preserve">
+    <value>Lukujen vaihtaminen ei ole sallittu ReadAloud-tilassa.</value>
+    <comment>Chapter change is not allowed in ReadAloud mode.</comment>
+  </data>
+  <data name="S_ReadAloudMsg2" xml:space="preserve">
+    <value>Lukukukelvottomia merkkejä havaittu. Ohitetaan.</value>
+    <comment>Unreadable characters detected. Skipping.</comment>
+  </data>
+  <data name="S_ReadAloudMsg3" xml:space="preserve">
+    <value>Seuraava luku.</value>
+    <comment>Next chapter.</comment>
+  </data>
+  <data name="S_ReadAloudMsg4" xml:space="preserve">
+    <value>Lukiessa tapahtui odottamaton virhe.</value>
+    <comment>Unexpected error occurred while reading.</comment>
+  </data>
+  <data name="S_Restore" xml:space="preserve">
+    <value>Palauta</value>
+    <comment>Restore</comment>
+  </data>
+  <data name="S_RmSyncFolderMsg1" xml:space="preserve">
+    <value>{0} kirjaa poistettu.</value>
+    <comment>{0} book(s) removed.</comment>
+  </data>
+  <data name="S_Save" xml:space="preserve">
+    <value>Tallenna</value>
+    <comment>Save</comment>
+  </data>
+  <data name="S_SelectBackupFile" xml:space="preserve">
+    <value>Valitse varmuuskopiotiedosto</value>
+    <comment>Select backup file</comment>
+  </data>
+  <data name="S_SelectFolder" xml:space="preserve">
+    <value>Valitse kansio</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="S_Series.Text" xml:space="preserve">
+    <value>Sarjat:</value>
+    <comment>Series : </comment>
+  </data>
+  <data name="S_ShareCollection" xml:space="preserve">
+    <value>Jaa kokoelmia</value>
+    <comment>Share collections</comment>
+  </data>
+  <data name="S_SomethingWentWrong" xml:space="preserve">
+    <value>Jokin meni pieleen!</value>
+    <comment>Something went wrong!</comment>
+  </data>
+  <data name="S_Sync_Now" xml:space="preserve">
+    <value>Synkronoi nyt</value>
+    <comment>Sync now</comment>
+  </data>
+  <data name="S_Sync_syncing" xml:space="preserve">
+    <value>Synkronoidaan ...</value>
+    <comment>Syncing ...</comment>
+  </data>
+  <data name="S_SyncFolder" xml:space="preserve">
+    <value>Synkronointikansio</value>
+    <comment>Sync Folder</comment>
+  </data>
+  <data name="S_TextCopied" xml:space="preserve">
+    <value>Valittu teksti kopioidaan leikepöydälle.</value>
+    <comment>Selected text copied to clipboard.</comment>
+  </data>
+  <data name="S_TOCMsg1" xml:space="preserve">
+    <value>Sisällysluettelo latautuu vielä...</value>
+    <comment>Table of Contents is still loading...</comment>
+  </data>
+  <data name="S_Understand" xml:space="preserve">
+    <value>Ymmärrän</value>
+    <comment>I understand</comment>
+  </data>
+  <data name="S_UnPin" xml:space="preserve">
+    <value>Irrota kiinnitys</value>
+    <comment>Un-Pin</comment>
+  </data>
+  <data name="S_Update" xml:space="preserve">
+    <value>Päivitys</value>
+    <comment>Update</comment>
+  </data>
+  <data name="S_UpdateFolder" xml:space="preserve">
+    <value>Päivitä kansio</value>
+    <comment>Update folder</comment>
+  </data>
+  <data name="S_UrlNotExist" xml:space="preserve">
+    <value>Url ei ole olemassa!</value>
+    <comment>Url does not exist!</comment>
+  </data>
+  <data name="S_WordCount.Text" xml:space="preserve">
+    <value>Sanojen määrä :</value>
+    <comment>Word count : </comment>
+  </data>
+  <data name="S_WrongMsg1" xml:space="preserve">
+    <value>Sorry, mutta näyttää siltä, ​​että jokin meni pieleen. Yritä avata tiedosto uudelleen. Jos ongelma jatkuu, ota yhteyttä tukeen.</value>
+    <comment>Sorry, but looks like something just went wrong.Try opening the file again. If the problem persists please contact support.</comment>
+  </data>
+  <data name="S_Yes" xml:space="preserve">
+    <value>Kyllä</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="T_About_copyright.Text" xml:space="preserve">
+    <value>© Optimilia Studios. All Rights Reserved.</value>
+    <comment>© Optimilia Studios. All Rights Reserved.</comment>
+  </data>
+  <data name="T_AddBook.Text" xml:space="preserve">
+    <value>Aloita lisäämällä kirja</value>
+    <comment>Add a book to get started</comment>
+  </data>
+  <data name="T_AddFolderMsg1.Text" xml:space="preserve">
+    <value>Kirjojen skannaus ja lisääminen</value>
+    <comment>Scanning and adding books</comment>
+  </data>
+  <data name="T_AddFolderRes1.Text" xml:space="preserve">
+    <value>Uusia kirjoja lisätty:</value>
+    <comment>New books added : </comment>
+  </data>
+  <data name="T_AddFolderRes2.Text" xml:space="preserve">
+    <value>Jo olemassa olevat kirjat:</value>
+    <comment>Already existing books : </comment>
+  </data>
+  <data name="T_AddFolderRes3.Text" xml:space="preserve">
+    <value>Kirjojen lisääminen epäonnistui:</value>
+    <comment>Failed to add books : </comment>
+  </data>
+  <data name="T_AddSite.Text" xml:space="preserve">
+    <value>Lisää sivusto</value>
+    <comment>Add site</comment>
+  </data>
+  <data name="T_AddTheme.Text" xml:space="preserve">
+    <value>Lisää teema</value>
+    <comment>Add theme</comment>
+  </data>
+  <data name="T_AquilePremium.Text" xml:space="preserve">
+    <value>Aquile Reader Premium</value>
+    <comment>Aquile Reader Premium</comment>
+  </data>
+  <data name="T_Backup_Beta.Text" xml:space="preserve">
+    <value>Beta</value>
+    <comment>Beta</comment>
+  </data>
+  <data name="T_Backup_Bkp.Text" xml:space="preserve">
+    <value>Luo varmuuskopio valituilla määrityksillä.</value>
+    <comment>Create a backup copy with the selected configurations.</comment>
+  </data>
+  <data name="T_Backup_Heading.Text" xml:space="preserve">
+    <value>Varmuuskopiointi ja palautus</value>
+    <comment>Backup &amp; Restore</comment>
+  </data>
+  <data name="T_Backup_Restore.Text" xml:space="preserve">
+    <value>Palauta valitut määritykset varmuuskopiotiedostosta.Huomaa: Tämä ohittaa nykyiset määritykset, esim. uudet muistiinpanot, korostukset jne. voivat kadota, jos niitä ei ole varmuuskopiossa.</value>
+    <comment>Restore the selected configurations from the backup file.Note: This will override current configurations, e.g. new notes, highlights etc can be lost if they are not contained in the backup copy.</comment>
+  </data>
+  <data name="T_BookmarksEmpty.Text" xml:space="preserve">
+    <value>Etsi kirjanmerkkisi täältä.</value>
+    <comment>Find your bookmarks here.</comment>
+  </data>
+  <data name="T_ChangeLog.Text" xml:space="preserve">
+    <value>Muutosloki</value>
+    <comment>Change log</comment>
+  </data>
+  <data name="T_Credits1.Text" xml:space="preserve">
+    <value>Krediitit</value>
+    <comment>Credits</comment>
+  </data>
+  <data name="T_CurrentPlan.Text" xml:space="preserve">
+    <value>Nykyinen suunnitelma :</value>
+    <comment>Current Plan :</comment>
+  </data>
+  <data name="T_Custom1" xml:space="preserve">
+    <value>1. Valitse taustaväri</value>
+    <comment>1. Select background color</comment>
+  </data>
+  <data name="T_Custom2" xml:space="preserve">
+    <value>2. Valitse tekstiväri</value>
+    <comment>2. Select text foreground color</comment>
+  </data>
+  <data name="T_Custom3" xml:space="preserve">
+    <value>3. Valitse väritila</value>
+    <comment>3. Select color mode</comment>
+  </data>
+  <data name="T_DictWebSrch1.Text" xml:space="preserve">
+    <value>Katso tämä</value>
+    <comment>Look this up</comment>
+  </data>
+  <data name="T_DictWebSrch2.Text" xml:space="preserve">
+    <value>verkossa</value>
+    <comment>on the web</comment>
+  </data>
+  <data name="T_Downloads1.Text" xml:space="preserve">
+    <value>Hae latauksesi täältä.</value>
+    <comment>Find your downloads here.</comment>
+  </data>
+  <data name="T_Exp.Text" xml:space="preserve">
+    <value>Kokeellinen</value>
+    <comment>Experimental</comment>
+  </data>
+  <data name="T_ExpDetails.Text" xml:space="preserve">
+    <value>Nämä ominaisuudet ovat vielä kehitysvaiheessa ja saattavat olla hieman epävakaita tai virheellisiä. Voit kokeilla niitä ja antaa meille palautetta.</value>
+    <comment>These features are still in development and might be little unstable or buggy. You can try them out and share feedback with us.</comment>
+  </data>
+  <data name="T_ExpDetailsLink.Text" xml:space="preserve">
+    <value>Lisätietoja ja tunnetut ongelmat</value>
+    <comment>More details and known issues</comment>
+  </data>
+  <data name="T_FavBooks.Text" xml:space="preserve">
+    <value>Suosikkikirjat</value>
+    <comment>Favourite Books</comment>
+  </data>
+  <data name="T_FavEmptyMsg.Text" xml:space="preserve">
+    <value>Suosikkikirjasi näkyvät täällä</value>
+    <comment>Your favourite books would appear here</comment>
+  </data>
+  <data name="T_FontStyle.Text" xml:space="preserve">
+    <value>Fonttityyli</value>
+    <comment>Font style</comment>
+  </data>
+  <data name="t_For.Text" xml:space="preserve">
+    <value>tähden</value>
+    <comment>for</comment>
+  </data>
+  <data name="T_GeneralSettings.Text" xml:space="preserve">
+    <value>Yleiset asetukset</value>
+    <comment>General Settings</comment>
+  </data>
+  <data name="T_HighEdit1.Text" xml:space="preserve">
+    <value>Valitse tekstin korostusväri</value>
+    <comment>Select text highlight color</comment>
+  </data>
+  <data name="T_HighlightColor.Text" xml:space="preserve">
+    <value>Korostusväri</value>
+    <comment>Highlight color</comment>
+  </data>
+  <data name="T_HighNotesEmpty.Text" xml:space="preserve">
+    <value>Löydät muistiinpanosi ja kohokohdat täältä.</value>
+    <comment>Find your notes and highlights here.</comment>
+  </data>
+  <data name="T_Initializing.Text" xml:space="preserve">
+    <value>Alustaminen</value>
+    <comment>Initializing</comment>
+  </data>
+  <data name="T_Language.Text" xml:space="preserve">
+    <value>Kieli</value>
+    <comment>Language</comment>
+  </data>
+  <data name="T_LineSpace.Text" xml:space="preserve">
+    <value>Riviväli</value>
+    <comment>Line space</comment>
+  </data>
+  <data name="T_NoCollections.Text" xml:space="preserve">
+    <value>Kokoelmia ei ole saatavilla</value>
+    <comment>No Collections available</comment>
+  </data>
+  <data name="T_NoDefFound.Text" xml:space="preserve">
+    <value>Määritelmää ei löytynyt</value>
+    <comment>No definition found</comment>
+  </data>
+  <data name="T_NoMatchesFound.Text" xml:space="preserve">
+    <value>Vastaavia ei löytynyt</value>
+    <comment>No matches found</comment>
+  </data>
+  <data name="T_NoteText.PlaceholderText" xml:space="preserve">
+    <value>Enter note text</value>
+    <comment>Enter note text</comment>
+  </data>
+  <data name="T_OBPlaceHolder.Text" xml:space="preserve">
+    <value>Aloita e-kirjojen lataaminen valitsemalla sivusto</value>
+    <comment>Select the site to start downloading eBooks</comment>
+  </data>
+  <data name="T_OnlineBooksWarn1" xml:space="preserve">
+    <value>Tärkeää tietoa</value>
+    <comment>Important Information</comment>
+  </data>
+  <data name="T_OnlineBooksWarn2" xml:space="preserve">
+    <value>Tallennamme verkkosivustojen käyttämät evästeet ylläpitääksemme kirjautumisesi jatkuvuutta ja tarjotaksemme paremman käyttökokemuksen.</value>
+    <comment>We save the cookies used by websites to maintain continuity of your logins and provide better experience.</comment>
+  </data>
+  <data name="T_OnlineBooksWarn3" xml:space="preserve">
+    <value>Emme suosittele ostosten/maksujen tekemistä täältä, käytä siihen tavallista selainta.</value>
+    <comment>We don't recommend making purchases/payments from here, please use your regular browser for the same.</comment>
+  </data>
+  <data name="T_OpeningBook.Text" xml:space="preserve">
+    <value>Avataan kirja</value>
+    <comment>Opening Book</comment>
+  </data>
+  <data name="T_OpenLibrary.Text" xml:space="preserve">
+    <value>Avaa kirjasto</value>
+    <comment>Open Library</comment>
+  </data>
+  <data name="T_PageLayout.Text" xml:space="preserve">
+    <value>Sivun asettelu</value>
+    <comment>Page layout</comment>
+  </data>
+  <data name="T_PageTheme.Text" xml:space="preserve">
+    <value>Sivun teemat</value>
+    <comment>Page themes</comment>
+  </data>
+  <data name="T_ParagraphSpace.Text" xml:space="preserve">
+    <value>Kappaleväli</value>
+    <comment>Paragraph space</comment>
+  </data>
+  <data name="T_Personalization.Text" xml:space="preserve">
+    <value>Personointi</value>
+    <comment>Personalization</comment>
+  </data>
+  <data name="T_Processing.Text" xml:space="preserve">
+    <value>Käsittely</value>
+    <comment>Processing</comment>
+  </data>
+  <data name="T_RaPremMsg.Text" xml:space="preserve">
+    <value>TTS (Text-to-Speech) -ääniohjaimet, jotka sisältävät lukunopeuden, äänenkorkeuden ja äänenvoimakkuuden, ovat saatavilla vain sovelluksen premium-versiossa.</value>
+    <comment>TTS (Text-to-Speech) audio controls which include reading speed, audio pitch and volume are only available in premium version of the app.</comment>
+  </data>
+  <data name="T_ReaderSettings.Text" xml:space="preserve">
+    <value>Lukijan asetukset</value>
+    <comment>Reader Settings</comment>
+  </data>
+  <data name="T_RecentReads.Text" xml:space="preserve">
+    <value>Viimeksi luetut</value>
+    <comment>Recent Reads</comment>
+  </data>
+  <data name="T_RmSyncFolder.Text" xml:space="preserve">
+    <value>Poista synkronoitu ikansio</value>
+    <comment>Remove Sync Folder</comment>
+  </data>
+  <data name="T_RmSyncFolderConf.Text" xml:space="preserve">
+    <value>Haluatko varmasti poistaa tämän synkronoidun kansion?</value>
+    <comment>Are you sure you want to remove this synced folder?</comment>
+  </data>
+  <data name="T_RmSyncFolderMsg1.Text" xml:space="preserve">
+    <value>Kirjojen poistaminen</value>
+    <comment>Removing books</comment>
+  </data>
+  <data name="T_SBInput.PlaceholderText" xml:space="preserve">
+    <value>Haku...</value>
+    <comment>Find ...</comment>
+  </data>
+  <data name="T_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Hae otsikon tai tekijän nimen mukaan...</value>
+    <comment>Search by title or author name ...</comment>
+  </data>
+  <data name="T_Searching.Text" xml:space="preserve">
+    <value>Haetaan</value>
+    <comment>Searching</comment>
+  </data>
+  <data name="T_SeeMore.Text" xml:space="preserve">
+    <value>Katso lisää</value>
+    <comment>See more</comment>
+  </data>
+  <data name="T_SelectFolder.Text" xml:space="preserve">
+    <value>Valitse kansio</value>
+    <comment>Select folder</comment>
+  </data>
+  <data name="T_Settings.Text" xml:space="preserve">
+    <value>Asetukset</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="T_SiteUrl.Text" xml:space="preserve">
+    <value>Sivuston osoite :</value>
+    <comment>Site url : </comment>
+  </data>
+  <data name="T_SomeWentWrong.Text" xml:space="preserve">
+    <value>Jokin meni pieleen, yritä uudelleen.</value>
+    <comment>Something went wrong, please try again.</comment>
+  </data>
+  <data name="T_SpeechSpeed.Text" xml:space="preserve">
+    <value>Puheen nopeus</value>
+    <comment>Speech speed</comment>
+  </data>
+  <data name="T_Statistics.Text" xml:space="preserve">
+    <value>Tilastot</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="T_Sync_AddFolder.Text" xml:space="preserve">
+    <value>Lisää synkronointikansio</value>
+    <comment>Add sync folder</comment>
+  </data>
+  <data name="T_Sync_BookCount.Text" xml:space="preserve">
+    <value>Kirjojen määrä: </value>
+    <comment>Book count : </comment>
+  </data>
+  <data name="T_Sync_msg1.Text" xml:space="preserve">
+    <value>Tämä tarjoaa helpon tavan pitää Aquile Reader -kirjasto ja paikallinen kirjakokoelmasi synkronoituna.</value>
+    <comment>This provides an easy way to keep the Aquile Reader library and your local book collection in sync.</comment>
+  </data>
+  <data name="T_Sync_msg2.Text" xml:space="preserve">
+    <value>Aquile Reader sovelluksen käynnistyksessä synkronoi kirjat 'Synkronointikansiot' -kansiosta ja lisää tai poistaa kirjoja automaattisesti sovelluskirjastosta.</value>
+    <comment>Aquile Reader on app start-up syncs books from 'Sync Folders' and automatically add/remove books from the app library.</comment>
+  </data>
+  <data name="T_Sync_SyncFolders.Text" xml:space="preserve">
+    <value>Synkronointikansiot</value>
+    <comment>Sync Folders</comment>
+  </data>
+  <data name="T_TextAlignment.Text" xml:space="preserve">
+    <value>Tekstin kohdistus</value>
+    <comment>Text alignment</comment>
+  </data>
+  <data name="T_TextSize.Text" xml:space="preserve">
+    <value>Tekstin koko</value>
+    <comment>Text size</comment>
+  </data>
+  <data name="T_TextSizeDecrease.Text" xml:space="preserve">
+    <value>A-</value>
+    <comment>A-</comment>
+  </data>
+  <data name="T_TextSizeDecrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vähennä (Ctrl + -)</value>
+    <comment>Decrease (Ctrl + -)</comment>
+  </data>
+  <data name="T_TextSizeIncrease.Text" xml:space="preserve">
+    <value>A+</value>
+    <comment>A+</comment>
+  </data>
+  <data name="T_TextSizeIncrease.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lisää(Ctrl + +)</value>
+    <comment>Increase (Ctrl + +)</comment>
+  </data>
+  <data name="T_Title.Text" xml:space="preserve">
+    <value>Otsikko: </value>
+    <comment>Title : </comment>
+  </data>
+  <data name="T_TocEmpty.Text" xml:space="preserve">
+    <value>Tämän kirjan sisällysluetteloa ei ole saatavilla.</value>
+    <comment>Table of contents is not available for this book.</comment>
+  </data>
+  <data name="T_Voice.Text" xml:space="preserve">
+    <value>Ääni</value>
+    <comment>Voice</comment>
+  </data>
+  <data name="T_VoiceGender.Text" xml:space="preserve">
+    <value>Äänen sukupuoli</value>
+    <comment>Voice gender</comment>
+  </data>
+  <data name="T_VoicePitch.Text" xml:space="preserve">
+    <value>Äänenkorkeus</value>
+    <comment>Voice pitch</comment>
+  </data>
+  <data name="T_Volume.Text" xml:space="preserve">
+    <value>Äänenvoimakkuus</value>
+    <comment>Volume</comment>
+  </data>
+  <data name="T_WordSpace.Text" xml:space="preserve">
+    <value>Sana-avaruus</value>
+    <comment>Word space</comment>
+  </data>
+  <data name="TC_B_DarkMode.Content" xml:space="preserve">
+    <value>Tumma tila</value>
+    <comment>Dark mode</comment>
+  </data>
+  <data name="TC_B_LightMode.Content" xml:space="preserve">
+    <value>Vaalea tila</value>
+    <comment>Light mode</comment>
+  </data>
+  <data name="TC_S_ErrMsg1" xml:space="preserve">
+    <value>Teeman nimen tulee olla 1-15 merkkiä pitkä.</value>
+    <comment>Theme name should be between 1-15 chars.</comment>
+  </data>
+  <data name="TC_S_SelectAccentColor" xml:space="preserve">
+    <value>2. Valitse korostusväri</value>
+    <comment>2. Select accent color</comment>
+  </data>
+  <data name="TC_S_SelectBackColor" xml:space="preserve">
+    <value>1. Valitse taustaväri</value>
+    <comment>1. Select background color</comment>
+  </data>
+  <data name="TC_S_SelectColorMode" xml:space="preserve">
+    <value>3. Valitse väritila</value>
+    <comment>3. Select color mode</comment>
+  </data>
+  <data name="TC_T_ThemeName.Text" xml:space="preserve">
+    <value>4. Teeman nimi</value>
+    <comment>4. Name of theme</comment>
+  </data>
+  <data name="TM_Author.Text" xml:space="preserve">
+    <value>Tekijä</value>
+    <comment>Author</comment>
+  </data>
+  <data name="TM_FilePath.Text" xml:space="preserve">
+    <value>Tiedostopolku</value>
+    <comment>File Path</comment>
+  </data>
+  <data name="TM_Genre.Text" xml:space="preserve">
+    <value>Genre</value>
+    <comment>Genre</comment>
+  </data>
+  <data name="TM_ImportTime.Text" xml:space="preserve">
+    <value>Tuontiaika</value>
+    <comment>Import time</comment>
+  </data>
+  <data name="TM_Language.Text" xml:space="preserve">
+    <value>Kieli</value>
+    <comment>Language</comment>
+  </data>
+  <data name="TM_LastReadTime.Text" xml:space="preserve">
+    <value>Viimeisin lukuaika</value>
+    <comment>Last read time</comment>
+  </data>
+  <data name="TM_None.Text" xml:space="preserve">
+    <value>(Ei mitään)</value>
+    <comment>(None)</comment>
+  </data>
+  <data name="TM_Publisher.Text" xml:space="preserve">
+    <value>Julkaisija</value>
+    <comment>Publisher</comment>
+  </data>
+  <data name="TM_ReadingProg.Text" xml:space="preserve">
+    <value>Lukemisen edistyminen</value>
+    <comment>Reading progress</comment>
+  </data>
+  <data name="TM_Series.Text" xml:space="preserve">
+    <value>Sarjat</value>
+    <comment>Series</comment>
+  </data>
+  <data name="TM_SeriesNum.Text" xml:space="preserve">
+    <value>Sarjanumero</value>
+    <comment>Series Number</comment>
+  </data>
+  <data name="TM_Title.Text" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ToggleSwitch.OffContent" xml:space="preserve">
+    <value>Pois käytöstä</value>
+    <comment>Disabled</comment>
+  </data>
+  <data name="ToggleSwitch.OnContent" xml:space="preserve">
+    <value>Käytössä</value>
+    <comment>Enabled</comment>
+  </data>
+  <data name="S_Previous" xml:space="preserve">
+    <value>Edellinen</value>
+    <comment>Previous</comment>
+  </data>
+  <data name="S_B_AppRestart" xml:space="preserve">
+    <value>Sovelluksen uudelleenkäynnistys tarvitaan</value>
+    <comment>App restart needed</comment>
+  </data>
+  <data name="S_B_AppRestartFailed" xml:space="preserve">
+    <value>Sovellusta ei voi käynnistää uudelleen. Käynnistä manuaalisesti, jotta muutokset tulevat voimaan.</value>
+    <comment>Unable to restart the app, please restart manually for changes to take effect.</comment>
+  </data>
+  <data name="S_B_LangRestartMsg" xml:space="preserve">
+    <value>Sovellus on käynnistettävä uudelleen, jotta näyttökielen muutos tulee voimaan. Haluatko jatkaa?</value>
+    <comment>App restart is required for display language change to take effect. Do you want to proceed?</comment>
+  </data>
+  <data name="S_B_Upgrade" xml:space="preserve">
+    <value>Päivitys</value>
+    <comment>Upgrade</comment>
+  </data>
+  <data name="S_B_UpgradePremMsg" xml:space="preserve">
+    <value>Päivitä Aquile Reader Premiumiin!</value>
+    <comment>Upgrade to Aquile Reader Premium!</comment>
+  </data>
+  <data name="T_HelpTranslateLink.Text" xml:space="preserve">
+    <value>Auta kääntämään useammalle kielelle</value>
+    <comment>Help translate to more languages</comment>
+  </data>
+  <data name="S_Free.Text" xml:space="preserve">
+    <value>Ilmainen versio</value>
+    <comment>Free Version</comment>
+  </data>
+  <data name="S_Free_Msg1.Text" xml:space="preserve">
+    <value>Mainokset sovelluksessa</value>
+    <comment>Advertisements in the app</comment>
+  </data>
+  <data name="S_Free_Msg2.Text" xml:space="preserve">
+    <value>Enintään 40 kokoelmakohdetta tuetaan</value>
+    <comment>Max 40 collection items supported</comment>
+  </data>
+  <data name="S_Free_Msg3.Text" xml:space="preserve">
+    <value>Kirjastossa enintään 20 kirjaa</value>
+    <comment>Max 20 books in the library</comment>
+  </data>
+  <data name="S_Free_Msg4.Text" xml:space="preserve">
+    <value>Mukautettuja väriteemoja ei tueta Readerissa</value>
+    <comment>Custom color schemes not supported in the Reader</comment>
+  </data>
+  <data name="S_Free_Msg5.Text" xml:space="preserve">
+    <value>Vain yksi mukautettu sovelluksen väriteema sallittu</value>
+    <comment>Only 1 custom app color theme allowed</comment>
+  </data>
+  <data name="S_Free_Msg6.Text" xml:space="preserve">
+    <value>Lukija tukee rajoitettua määrää fontteja</value>
+    <comment>Limited number of fonts supported in the reader</comment>
+  </data>
+  <data name="S_Free_Msg7.Text" xml:space="preserve">
+    <value>Rajoitettu TTS (teksti puheeksi) -tuki</value>
+    <comment>Limited TTS (Text-to-Speech) support</comment>
+  </data>
+  <data name="S_Free_Msg8.Text" xml:space="preserve">
+    <value>Vain 1 synkronointikansio sallittu</value>
+    <comment>Only 1 sync folder allowed</comment>
+  </data>
+  <data name="S_Free_Msg9.Text" xml:space="preserve">
+    <value>Aloitusnäyttöön voidaan kiinnittää enintään 5 kirjaa kerrallaan</value>
+    <comment>Max 5 books can be pinned to Start screen at a time</comment>
+  </data>
+  <data name="S_PremPage.Text" xml:space="preserve">
+    <value>Premium Versio</value>
+    <comment>Premium Version</comment>
+  </data>
+  <data name="S_PremPage_Msg1.Text" xml:space="preserve">
+    <value>Mainokseton lukukokemus</value>
+    <comment>Ad free reading experience</comment>
+  </data>
+  <data name="S_PremPage_Msg2.Text" xml:space="preserve">
+    <value>Ei rajoituksia kokoelmille (korostukset, muistiinpanot ja kirjanmerkit)</value>
+    <comment>No limit on collections (highlights, notes &amp; bookmarks)</comment>
+  </data>
+  <data name="S_PremPage_Msg3.Text" xml:space="preserve">
+    <value>Kirjaston kirjojen määrää ei ole rajoitettu</value>
+    <comment>No limit on number of books in the library</comment>
+  </data>
+  <data name="S_PremPage_Msg4.Text" xml:space="preserve">
+    <value>Mukautetut väriteemat saatavilla Readerissa</value>
+    <comment>Custom color schemes available in the Reader</comment>
+  </data>
+  <data name="S_PremPage_Msg5.Text" xml:space="preserve">
+    <value>Tuki useille mukautetuille sovellusväriteemoille</value>
+    <comment>Support for any number of custom app color themes</comment>
+  </data>
+  <data name="S_PremPage_Msg6.Text" xml:space="preserve">
+    <value>Pääsy kaikkiin järjestelmään asennettuihin fontteihin</value>
+    <comment>Access to all fonts installed in the system</comment>
+  </data>
+  <data name="S_PremPage_Msg7.Text" xml:space="preserve">
+    <value>Täysi TTS (teksti puheeksi) -kokemus</value>
+    <comment>Full TTS (Text-to-Speech) experience</comment>
+  </data>
+  <data name="S_PremPage_Msg8.Text" xml:space="preserve">
+    <value>Synkronointikansioiden lukumäärää ei ole rajoitettu</value>
+    <comment>No limit on number of sync folders</comment>
+  </data>
+  <data name="S_PremPage_Msg9.Text" xml:space="preserve">
+    <value>Aloitusnäyttöön kiinnitettyjen kirjojen lukumäärää ei ole rajoitettu</value>
+    <comment>No limit on number books pinned to Start screen</comment>
+  </data>
+  <data name="Sync_AllBooks" xml:space="preserve">
+    <value>Kaikki kirjat</value>
+    <comment>All Books</comment>
+  </data>
+  <data name="Sync_AllBooksListMsg" xml:space="preserve">
+    <value>Kaikki kirjat paitsi seuraavat synkronoidaan -</value>
+    <comment>All books except following are being synced -</comment>
+  </data>
+  <data name="Sync_CloudSync_Heading.Text" xml:space="preserve">
+    <value>Pilvi synkronointi</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSync.Description" xml:space="preserve">
+    <value>Vaihda laitteiden välinen kirjojen ja metatietojen synkronointi linkitetyn Google Drive -tilin avulla.</value>
+    <comment>Toggle cross-device sync of books and metadata using the linked Google drive account.</comment>
+  </data>
+  <data name="Sync_EnableSync.Title" xml:space="preserve">
+    <value>Ota pilvisynkronointi käyttöön</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_LinkAccount" xml:space="preserve">
+    <value>Linkitä Google-tili</value>
+    <comment>Link Google account</comment>
+  </data>
+  <data name="Sync_LinkBeforeSync" xml:space="preserve">
+    <value>Linkitä Google-tili ennen synkronoinnin käyttöönottoa.</value>
+    <comment>Link Google account before enabling sync.</comment>
+  </data>
+  <data name="Sync_LinkedGDrive" xml:space="preserve">
+    <value>Yhdistetty Google Driveen yhdistettynä -</value>
+    <comment>Linked to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SelectedBooks" xml:space="preserve">
+    <value>Valitut kirjat</value>
+    <comment>Selected books</comment>
+  </data>
+  <data name="Sync_SelectedBooksListMsg" xml:space="preserve">
+    <value>Seuraavat kirjat synkronoidaan -</value>
+    <comment>Following books are being synced -</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Description" xml:space="preserve">
+    <value>"Kaikki kirjat" tarkoittaa oletuksena, että kaikki kirjat synkronoidaan, lukuun ottamatta poissuljettuja. "Valitut kirjat" tarkoittaa oletuksena, että mitään kirjaa ei synkronoida, lukuun ottamatta mukana olevia.</value>
+    <comment>'All Books' means by default all books will be synced, except for excluded ones.'Selected Books' means by default no book will be synced, except for included ones.</comment>
+  </data>
+  <data name="Sync_SyncBookMode.Title" xml:space="preserve">
+    <value>Synkronoitavat kirjat</value>
+    <comment>Books to sync</comment>
+  </data>
+  <data name="Sync_SyncGDrive" xml:space="preserve">
+    <value>Synkronoidaan Google Driveen yhdistettynä -</value>
+    <comment>Syncing to Google Drive connected to -</comment>
+  </data>
+  <data name="Sync_SyncInfo.Text" xml:space="preserve">
+    <value>Pilvisynkronointi mahdollistaa Aquile Readerin käytön useilla laitteilla (Android ja Windows) ja synkronoi tiedot niiden kanssa saumattoman lukukokemuksen takaamiseksi. Pilvisynkronointi voi toimia myös varmuuskopiotietona, jota voidaan käyttää palautukseen uuden asennuksen jälkeen.</value>
+    <comment>Cloud sync enables use of Aquile Reader on multiple devices (Android and Windows) and syncs data acorss them for seamless reading experience. Cloud sync can also serve as backup data that can be used for restore after fresh install.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Description" xml:space="preserve">
+    <value>Näytä viesti-ponnahdusikkunat, kun synkronointi on käynnissä.</value>
+    <comment>Display message pop-ups when sync is running.</comment>
+  </data>
+  <data name="Sync_SyncMsg.Title" xml:space="preserve">
+    <value>Näytä synkronointiviestit</value>
+    <comment>Show sync working messages</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Description" xml:space="preserve">
+    <value>Lataa e-kirjan lähdetiedostot pilveen.</value>
+    <comment>Upload source eBook files to cloud.</comment>
+  </data>
+  <data name="Sync_SyncUploadFiles.Title" xml:space="preserve">
+    <value>Synkronoi e-kirjatiedostot</value>
+    <comment>Sync eBook files</comment>
+  </data>
+  <data name="Sync_UnlinkAccount" xml:space="preserve">
+    <value>Poista Google-tilin linkitys</value>
+    <comment>Unlink Google account</comment>
+  </data>
+  <data name="S_EmptyList.Text" xml:space="preserve">
+    <value>Lista on tyhjä</value>
+    <comment>List is empty</comment>
+  </data>
+  <data name="Sync_DisableSync" xml:space="preserve">
+    <value>Poista pilvisynkronointi käytöstä</value>
+    <comment>Disable cloud sync</comment>
+  </data>
+  <data name="Sync_EnableSyncStr" xml:space="preserve">
+    <value>Ota pilvisynkronointi käyttöön</value>
+    <comment>Enable cloud sync</comment>
+  </data>
+  <data name="Sync_SyncNow.Text" xml:space="preserve">
+    <value>Synkronoi kirja nyt</value>
+    <comment>Sync book now</comment>
+  </data>
+  <data name="Sync_UploadBookFile.Text" xml:space="preserve">
+    <value>Löhetä kirjatiedosto</value>
+    <comment>Upload book file</comment>
+  </data>
+  <data name="S_AddFav" xml:space="preserve">
+    <value>Lisää suosikki</value>
+    <comment>Add Favourite</comment>
+  </data>
+  <data name="S_RemoveFav" xml:space="preserve">
+    <value>Poista suosikki</value>
+    <comment>Remove Favourite</comment>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>Synkronointi peruutettu</value>
+    <comment>Sync cancelled</comment>
+  </data>
+  <data name="Sync_Complete" xml:space="preserve">
+    <value>Synkronointi valmis</value>
+    <comment>Sync complete</comment>
+  </data>
+  <data name="Sync_ComplteRefreshNeeded" xml:space="preserve">
+    <value>Synkronointi valmis, luvun päivitys tarpeen</value>
+    <comment>Sync complete, chapter refresh needed</comment>
+  </data>
+  <data name="Sync_Failed" xml:space="preserve">
+    <value>Synkronointi epäonnistui</value>
+    <comment>Sync failed</comment>
+  </data>
+  <data name="Sync_Started" xml:space="preserve">
+    <value>Synkronointi aloitettu</value>
+    <comment>Sync started</comment>
+  </data>
+  <data name="sync_tip.Subtitle" xml:space="preserve">
+    <value>Pilvisynkronointi käyttää Google Drivea mahdollistamaan kirjojen, kirjatiedostojen, metatietojen, lukupaikan ja huomautusten synkronoinnin eri laitteiden välillä (Android ja Windows).Sovelluksen käynnistyessä kirjojen viimeisin tila ladataan pilvestä. Kun kirja avataan ja suljetaan, kirjan tila synkronoidaan uudelleen (sekä ylös- että alaspäin).Synkronointikäyttäytymistä voidaan säätää asetuksilla. Kaikki kirjat -valinnalla synkronoidaan oletusarvoisesti kaikki kirjat, ellei käyttäjä ole jättänyt joitakin kirjoja synkronoinnin ulkopuolelle. 'Valitut kirjat' tarkoittaa, että vain käyttäjän valitsemat kirjat synkronoidaan. Kirjat voidaan sisällyttää tai jättää pois käyttämällä kirjan kontekstivalikkoa.</value>
+    <comment>Cloud sync uses Google Drive to enable cross device sync (Android and Windows) of books, book files, metadata, reading position and annotations.At the app start, latest state of books are downloaded from cloud. On opening and closing a book, state of the book is synced again (both upwards and downwards).Options are provided to control the sync behaviour. With 'All books' option by default all the books are synced, unless user has excluded some books from sync. 'Selected books' means only user selected books are synced. Books can be included/excluded by using the book context menu.</comment>
+  </data>
+  <data name="sync_tip.Title" xml:space="preserve">
+    <value>Pilvisynkronointi</value>
+    <comment>Cloud sync</comment>
+  </data>
+  <data name="S_Free_Msg10.Text" xml:space="preserve">
+    <value>Enintään 3 kirjaa voidaan synkronoida pilveen.</value>
+    <comment>Max 3 books can be synced to cloud.</comment>
+  </data>
+  <data name="S_PremiumCloudSync" xml:space="preserve">
+    <value>Ilmaisversio tukee vain 'Valitut kirjat' -vaihtoehtoa. Päivitä Aquile Reader Premiumiin nauttiaksesi kaikista ominaisuuksista.</value>
+    <comment>Free version supports only 'Selected Books' option.Please upgrade to Aquile Reader Premium to enjoy all features.</comment>
+  </data>
+  <data name="S_PremiumCloudSyncLimit" xml:space="preserve">
+    <value>Sovelluksen ilmainen versio tukee vain {0} kirjan synkronointia pilveen. Jos haluat lisätä enemmän, päivitä Aquile Reader Premium -versioon.</value>
+    <comment>Free version of the app supports only {0} books to be synced to cloud.To add more, please upgrade to Aquile Reader Premium.</comment>
+  </data>
+  <data name="S_PremPage_Msg10.Text" xml:space="preserve">
+    <value>Ei rajoituksia pilvisynkronointivaihtoehdoille.</value>
+    <comment>No limitation on cloud sync options.</comment>
+  </data>
+</root>
